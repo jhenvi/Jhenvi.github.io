@@ -1,33 +1,42 @@
-#DOCTYPE declaration
-<DOCTYPE html>
-<html>
-    <head>
-        <title>My Biography Page</title>
-    </head>
+<!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
 
-    <body>
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-        <h1>Welcome to my Page!</h1>
+<body>
 
-        <h2>This page is all about mafalda</h2>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-        <img src='http://blogs.slj.com/afuse8production/files/2014/12/Mafalda1-500x357.jpg'>
-        <br>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Jhenny Villagra</h2>
+        <img id="bio-image" src="IMG_1807.jpg" alt="Jhenny">
+      </section>
+      <p> I am an Innovative, results-oriented leader with successful record leading strategic planning, business operations and financial management, procurement and project management for corporate initiatives and implementation of continuous improvement initiatives. Experience developing people - process - technology synergies by building high functioning teams and implementing innovative solutions and data-driven decision-making models to deliver on business objectives.</p>
+      <p> CORE COMPETENCIES : 	Leadership & Operations Management, 	Strategic Planning, Risk Management and Procurement 	Project Management, Agile Methodology, 	Process Improvement, BPI, Six Sigma, Change Management, 	Government Administration, internal controls and compliance with good understanding of legislation and regulation,  	Implementation of complex costing models </p>
 
-        <strong><a href="https://www.google.ca"> Google Link </a></strong>
-        <br>
-       <strong><a href= https://en.wikipedia.org/wiki/Quino> Wikipedia Link </a></strong>
-       <br>
-       <strong><a href= https://www.amazon.ca/Todo-Mafalda-QUINO/dp/8426419232> Amazon Link </a></strong>
-        <br>
+    </section>
 
-        <a href="#">placeholder that goes nowhere. </a>
-<ol>
-    <li> item 1 </li>
-</ol>
- <br>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:jhenvi@gmail.com">jhenvi@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/jhenvi/databootcamp-homework">github</a></li>
+        <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/jhenny-lilian-v-755823131/">linkedin</a></li>
+      </ul>
+    </aside>
+  </main>
 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/ixjMZeQE4mo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </body>
+</body>
 
-</html> 
+</html>
